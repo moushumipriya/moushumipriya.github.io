@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mst Moushumi Khatun | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    /* Base Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #e0f2fe, #bae6fd);
+      color: #1e293b;
+      max-width: 900px;
+      margin: 50px auto 70px;
+      padding: 0 25px;
+      line-height: 1.65;
+    }
+
+    a {
+      color: #0284c7;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #0369a1;
+      text-decoration: underline;
+    }
+
+    header {
+      text-align: center;
+      padding-bottom: 50px;
+      border-bottom: 3px solid #0284c7;
+    }
+    header h1 {
+      font-weight: 700;
+      font-size: 3.6rem;
+      color: #0369a1;
+      letter-spacing: 0.08em;
+      margin-bottom: 6px;
+      text-shadow: 2px 2px 6px rgba(2,132,199,0.3);
+    }
+    header p.contact {
+      font-weight: 500;
+      color: #475569;
+      font-size: 1.1rem;
+      margin: 6px 0;
+      letter-spacing: 0.02em;
+    }
+    .social-links {
+      margin-top: 18px;
+    }
+    .social-links a {
+      font-weight: 700;
+      margin: 0 20px;
+      font-size: 1.3rem;
+      padding: 6px 12px;
+      border-radius: 8px;
+      background: #bae6fd;
+      box-shadow: 0 4px 6px rgba(2,132,199,0.25);
+      transition: background 0.3s ease, box-shadow 0.3s ease;
+      display: inline-block;
+    }
+    .social-links a:hover {
+      background: #0284c7;
+      color: #f1f5f9;
+      box-shadow: 0 8px 15px rgba(2,132,199,0.5);
+    }
+    .resume-btn {
+      margin-top: 30px;
+      background-color: #0284c7;
+      color: white;
+      padding: 16px 40px;
+      font-weight: 700;
+      font-size: 1.3rem;
+      border-radius: 14px;
+      box-shadow: 0 10px 20px rgba(2,132,199,0.4);
+      display: inline-block;
+      cursor: pointer;
+      transition: background-color 0.4s ease, box-shadow 0.4s ease, transform 0.3s ease;
+      text-decoration: none;
+    }
+    .resume-btn:hover {
+      background-color: #0369a1;
+      box-shadow: 0 14px 28px rgba(3,105,161,0.6);
+      transform: translateY(-4px);
+    }
+
+    section {
+      background: #ffffffdd;
+      padding: 38px 40px;
+      margin-top: 50px;
+      border-radius: 18px;
+      box-shadow: 0 14px 40px rgba(0, 0, 0, 0.08);
+      transition: box-shadow 0.4s ease;
+    }
+    section:hover {
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.12);
+    }
+    h2 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: #0369a1;
+      margin-bottom: 30px;
+      border-left: 10px solid #0284c7;
+      padding-left: 18px;
+      letter-spacing: 0.03em;
+    }
+    h3 {
+      font-weight: 600;
+      color: #334155;
+      margin-top: 28px;
+      margin-bottom: 14px;
+    }
+    em {
+      color: #64748b;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1rem;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 22px;
+      color: #475569;
+      font-size: 1.1rem;
+    }
+    li {
+      margin-bottom: 12px;
+    }
+    p {
+      font-size: 1.12rem;
+      color: #475569;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 70px;
+      padding: 25px 0;
+      font-size: 1rem;
+      color: #94a3b8;
+      border-top: 1px solid #cbd5e1;
+    }
+
+    /* Responsive */
+    @media (max-width: 620px) {
+      body {
+        margin: 40px 15px 60px;
+        padding: 0 15px;
+      }
+      header h1 {
+        font-size: 2.8rem;
+      }
+      section {
+        padding: 28px 25px;
+      }
+      h2 {
+        font-size: 2rem;
+      }
+      .resume-btn {
+        padding: 14px 32px;
+        font-size: 1.1rem;
+      }
+      .social-links a {
+        font-size: 1.1rem;
+        margin: 0 12px;
+        padding: 5px 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Mst Moushumi Khatun</h1>
+  <p class="contact">moushumipriya1999@gmail.com | +880 1946-615954 | Dhaka, Bangladesh</p>
+  <div class="social-links">
+    <a href="https://github.com/moushumipriya" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+    <a href="https://linkedin.com/in/mst-moushumi-k" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+  </div>
+  <a href="resume.pdf" class="resume-btn" download>Download Resume</a>
+</header>
+
+<section>
+  <h2>Professional Summary</h2>
+  <p>
+    AI Engineer with expertise in Machine Learning, Deep Learning, NLP, and Data Science, specializing in Norway-relevant applications across maritime & fisheries AI, healthcare, autonomous systems, and multilingual legal automation. Experienced in building end-to-end AI solutions—from data preprocessing and model development to deployment in production environments. Published in ACM and Springer, with a strong portfolio of real-world projects targeting sustainable technology, healthcare innovation, and public service automation.
+  </p>
+</section>
+
+<section>
+  <h2>Core Skills & Technologies</h2>
+  <ul>
+    <li><strong>Languages:</strong> Python, PHP, JavaScript, SQL, HTML, CSS</li>
+    <li><strong>ML/DL Frameworks:</strong> TensorFlow, PyTorch, Keras, scikit-learn, XGBoost, LSTM, CNN</li>
+    <li><strong>NLP & RAG:</strong> LangChain, Hugging Face Transformers, spaCy, NLTK, Translation Models</li>
+    <li><strong>Data Tools:</strong> Pandas, NumPy, Matplotlib, Seaborn, Power BI, Excel</li>
+    <li><strong>Cloud & DevOps:</strong> AWS (EC2), Docker, Kubernetes, Git, Flask, Streamlit</li>
+    <li><strong>Other:</strong> Agile/Scrum, SQA, Manual Testing, REST API development</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Professional Experience</h2>
+  <h3>Trainee Software Developer — Business Automation Ltd</h3>
+  <p><em>Dhaka, Bangladesh | Jul 2025 – Present</em></p>
+  <ul>
+    <li>Developed and maintained web modules using Laravel (PHP), HTML, CSS, and JavaScript.</li>
+    <li>Participated in SQA processes including test case creation and bug reporting.</li>
+    <li>Worked in Agile teams and managed code via Git.</li>
+  </ul>
+
+  <h3>Data Scientist — Nobleroot Ltd</h3>
+  <p><em>Dhaka, Bangladesh | Jul 2024 – Jul 2025</em></p>
+  <ul>
+    <li>Built and deployed ML models for predictive analytics in business operations.</li>
+    <li>Conducted EDA to extract actionable insights, improving decision-making efficiency.</li>
+    <li>Deployed predictive solutions using AWS EC2 and containerized applications.</li>
+  </ul>
+
+  <h3>Data Analyst — Skill Service Ltd</h3>
+  <p><em>Dhaka, Bangladesh | Feb 2023 – Jun 2024</em></p>
+  <ul>
+    <li>Automated data reporting processes, reducing manual reporting time by 60%.</li>
+    <li>Created interactive dashboards using Power BI and Python visualizations.</li>
+    <li>Delivered business intelligence reports to cross-functional teams.</li>
+  </ul>
+
+  <h3>Research Assistant — Advance Machine Intelligence Research Lab</h3>
+  <p><em>Dhaka, Bangladesh | Sep 2022 – Present</em></p>
+  <ul>
+    <li>Trained CNN models for crop disease detection with 92% accuracy.</li>
+    <li>Applied computer vision and image processing to real-world datasets.</li>
+    <li>Contributed to research published in ACM and Springer.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Selected Projects</h2>
+  <ul>
+    <li><strong>Norwegian Fish Movement Prediction (ML + LSTM):</strong> AI model forecasting fish movement in Norwegian coastal waters using environmental data (temperature, salinity, depth) for sustainable fisheries management.</li>
+    <li><strong>Multilingual Norwegian Constitution Chatbot (NLP + RAG):</strong> Chatbot answering queries from Norwegian legal documents in Bengali, English, and Norwegian using retrieval-augmented generation and translation models.</li>
+    <li><strong>Medical Chatbot (LLM + RAG):</strong> Chatbot answering health queries from a medical encyclopedia PDF using Hugging Face LLMs for natural language responses.</li>
+    <li><strong>EU Job Match Pro (NLP):</strong> Streamlit web app matching resumes to job descriptions using TF-IDF + Cosine Similarity.</li>
+    <li><strong>DeepUNet24 for Lane Segmentation (Computer Vision):</strong> Deep learning model for autonomous vehicle navigation.</li>
+    <li><strong>Reinforcement Learning (RL) Projects:</strong> Implemented RL algorithms such as Q-Learning and Deep Q-Network (DQN) for decision-making tasks, including simulations relevant to autonomous navigation and control systems.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Publications</h2>
+  <ul>
+    <li>DeepUNet24: A Deep Learning Model for Lane Segmentation in Autonomous Vehicles Navigation, ACM, 2025</li>
+    <li>Multi-Sense Attention Network for Human Activity Recognition, ACM, 2025</li>
+    <li>Yoga Posture Image Classification Using Big Transfer (BiT), 2024</li>
+    <li>Self-Supervised Representation Learning for Human Activity Recognition, Qpain 2025 (Accepted)</li>
+    <li>Banana Leaf Spot Disease Detection using Deep Learning, Springer, 2024 (Accepted)</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <p><strong>B.Sc. in Computer Science & Engineering</strong> — Bangladesh University of Business and Technology (2018–2022) <br />
+    CGPA: 3.01/4.00
+  </p>
+</section>
+
+<section>
+  <h2>Certifications</h2>
+  <ul>
+    <li>IT Training BD – Hands-on SQA</li>
+    <li>AMIR-Lab – Research Assistant</li>
+  </ul>
+</section>
+
+<footer>
+  © 2025 Mst Moushumi Khatun
+</footer>
+
+</body>
+</html>
