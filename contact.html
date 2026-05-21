@@ -1,0 +1,394 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact | Moushumi Priya</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+
+/* CONTACT PAGE EXTRA DESIGN */
+
+.contact-container{
+max-width:1200px;
+margin:auto;
+}
+
+.contact-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:35px;
+margin-top:60px;
+}
+
+.contact-card{
+background:rgba(255,255,255,0.08);
+border:1px solid rgba(255,255,255,0.12);
+padding:40px;
+border-radius:30px;
+backdrop-filter:blur(14px);
+transition:0.4s;
+position:relative;
+overflow:hidden;
+box-shadow:0 0 25px rgba(0,0,0,0.3);
+}
+
+.contact-card::before{
+content:'';
+position:absolute;
+width:220px;
+height:220px;
+background:rgba(0,217,255,0.08);
+border-radius:50%;
+top:-80px;
+right:-80px;
+}
+
+.contact-card:hover{
+transform:translateY(-10px) scale(1.02);
+box-shadow:0 0 35px rgba(0,217,255,0.35);
+border-color:#00d9ff;
+}
+
+.contact-icon{
+font-size:45px;
+margin-bottom:20px;
+}
+
+.contact-card h3{
+font-size:28px;
+margin-bottom:15px;
+color:#00d9ff;
+}
+
+.contact-card p{
+color:#dbeafe;
+line-height:1.8;
+margin-bottom:20px;
+word-break:break-word;
+}
+
+.contact-btn{
+display:inline-block;
+padding:12px 28px;
+border-radius:40px;
+background:linear-gradient(to right,#ff00cc,#00d9ff);
+text-decoration:none;
+color:white;
+font-weight:600;
+transition:0.4s;
+}
+
+.contact-btn:hover{
+transform:scale(1.05);
+}
+
+.contact-title{
+text-align:center;
+margin-top:100px;
+}
+
+.contact-title h1{
+font-size:60px;
+background:linear-gradient(to right,#ff00cc,#00d9ff,#8b5cf6);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+margin-bottom:20px;
+}
+
+.contact-title p{
+color:#cbd5e1;
+font-size:20px;
+max-width:800px;
+margin:auto;
+line-height:1.8;
+}
+
+.social-section{
+margin-top:80px;
+text-align:center;
+}
+
+.social-icons{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
+margin-top:40px;
+}
+
+.social-icons a{
+width:70px;
+height:70px;
+display:flex;
+justify-content:center;
+align-items:center;
+border-radius:50%;
+background:rgba(255,255,255,0.08);
+font-size:30px;
+text-decoration:none;
+transition:0.4s;
+box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+.social-icons a:hover{
+transform:translateY(-8px) scale(1.1);
+background:linear-gradient(to right,#ff00cc,#00d9ff);
+}
+
+.back-home{
+text-align:center;
+margin-top:80px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<div class="logo">
+Moushumi AI
+</div>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<!-- CONTACT TITLE -->
+
+<section class="contact-container">
+
+<div class="contact-title">
+
+<h1>
+Let's Connect
+</h1>
+
+<p>
+
+Interested in AI research collaborations,
+PhD opportunities,
+research discussions,
+or innovative AI projects?
+
+Feel free to connect with me through any platform below.
+
+</p>
+
+</div>
+
+<!-- CONTACT GRID -->
+
+<div class="contact-grid">
+
+<!-- EMAIL -->
+
+<div class="contact-card">
+
+<div class="contact-icon">
+📧
+</div>
+
+<h3>Email</h3>
+
+<p>
+moushumipriya1999@gmail.com
+</p>
+
+<a href="mailto:moushumipriya1999@gmail.com" class="contact-btn">
+
+Send Email →
+
+</a>
+
+</div>
+
+<!-- GITHUB -->
+
+<div class="contact-card">
+
+<div class="contact-icon">
+💻
+</div>
+
+<h3>GitHub</h3>
+
+<p>
+github.com/moushumipriya
+</p>
+
+<a href="https://github.com/moushumipriya" target="_blank" class="contact-btn">
+
+Open GitHub →
+
+</a>
+
+</div>
+
+<!-- LINKEDIN -->
+
+<div class="contact-card">
+
+<div class="contact-icon">
+🔗
+</div>
+
+<h3>LinkedIn</h3>
+
+<p>
+linkedin.com/in/mst-moushumi-k
+</p>
+
+<a href="https://www.linkedin.com/in/mst-moushumi-k/" target="_blank" class="contact-btn">
+
+Visit LinkedIn →
+
+</a>
+
+</div>
+
+<!-- GOOGLE SCHOLAR -->
+
+<div class="contact-card">
+
+<div class="contact-icon">
+🎓
+</div>
+
+<h3>Google Scholar</h3>
+
+<p>
+Research Publications & Citations
+</p>
+
+<a href="https://scholar.google.com/citations?user=ZYjMKzIAAAAJ&hl=en" target="_blank" class="contact-btn">
+
+View Scholar →
+
+</a>
+
+</div>
+
+<!-- PHONE -->
+
+<div class="contact-card">
+
+<div class="contact-icon">
+📱
+</div>
+
+<h3>Phone</h3>
+
+<p>
++8801946615954
+</p>
+
+<a href="tel:+8801946615954" class="contact-btn">
+
+Call Now →
+
+</a>
+
+</div>
+
+<!-- LOCATION -->
+
+<div class="contact-card">
+
+<div class="contact-icon">
+📍
+</div>
+
+<h3>Location</h3>
+
+<p>
+Dhaka, Bangladesh
+</p>
+
+<a href="https://maps.google.com" target="_blank" class="contact-btn">
+
+View Map →
+
+</a>
+
+</div>
+
+</div>
+
+<!-- SOCIAL ICONS -->
+
+<div class="social-section">
+
+<h1 class="section-title">
+Social Platforms
+</h1>
+
+<div class="social-icons">
+
+<a href="mailto:moushumipriya1999@gmail.com">
+📧
+</a>
+
+<a href="https://github.com/moushumipriya" target="_blank">
+💻
+</a>
+
+<a href="https://www.linkedin.com/in/mst-moushumi-k/" target="_blank">
+🔗
+</a>
+
+<a href="https://scholar.google.com/citations?user=ZYjMKzIAAAAJ&hl=en" target="_blank">
+🎓
+</a>
+
+<a href="https://wa.me/8801946615954" target="_blank">
+💬
+</a>
+
+</div>
+
+</div>
+
+<!-- BACK BUTTON -->
+
+<div class="back-home">
+
+<a href="index.html" class="btn">
+
+🏠 Back To Home
+
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Moushumi Priya | AI Research Portfolio
+
+</footer>
+
+</body>
+
+</html>
